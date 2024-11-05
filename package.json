@@ -1,7 +1,7 @@
 {
-  "name": "lru-cache",
+  "name": "@wolfy1339/lru-cache",
   "description": "A cache object that deletes the least-recently-used items.",
-  "version": "11.0.2",
+  "version": "11.0.2-patch.1",
   "author": "Isaac Z. Schlueter <i@izs.me>",
   "keywords": [
     "mru",
@@ -111,5 +111,8 @@
     }
   },
   "type": "module",
-  "module": "./dist/esm/index.js"
+  "module": "./dist/esm/index.js",
+  "publishConfig": {
+    "access": "public"
+  }
 }
